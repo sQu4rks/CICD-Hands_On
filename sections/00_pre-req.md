@@ -2,5 +2,5 @@
 
 <div align="right">
    
-   [Prev](../Readme.md) - [Next](01_intro-to-cicd.md)
+   [Prev](/README.md) - [Next](01_intro-to-cicd.md)
 </div>
