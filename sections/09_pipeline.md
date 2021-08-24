@@ -2,5 +2,5 @@
 
 <div align="right">
    
-   [Prev](08_write-test.md) - Next)
+   [Prev](08_write-test.md) - Next
 </div>
