@@ -2,5 +2,5 @@
 
 <div align="right">
    
-   [Prev](01_intro-to-cicd.md) - [Next](04_intro-to-deployments.md)
+   [Prev](01_intro-to-cicd.md) - [Next](03_run-project.md)
 </div>
