@@ -50,5 +50,5 @@ To build the images with Compose, you can use `docker-compose build`. To start t
 
 <div align="right">
    
-   [Prev](02_intro-to-code.md) - [Next](04_run-project.md)
+   [Prev](02_intro-to-code.md) - [Next](04_intro-to-deployments.md)
 </div>
