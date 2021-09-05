@@ -6,15 +6,15 @@
 * Build the docker image
 * Run the docker images (app + redis) locally
 
-### Cloning the GitHub repository
+## Cloning the GitHub repository
 
-Change to a directory of your preference and use `git clone XYZ`  to clone the repository with the app and all required files for this session to a new folder.
+Change to a directory of your preference and use `git clone https://github.com/sQu4rks/CICD-Hands_On-Demo.git`  to clone the repository with the app and all required files for this session to a new folder.
 
 Create a virtual environment to work inside during our session?
 
 P.S.: To clone the repository with this sessions text you can use `git clone https://github.com/sQu4rks/CICD-Hands_On.git`
 
-### Running the Redis container
+## Running the Redis container
 
 Verify Docker is running:
 Try `docker -v` or `docker ps` to check if docker is running.
@@ -40,13 +40,11 @@ To generate this message, Docker took the following steps:
 
 To get the redis container downloaded and running, do the same thing using `docker run redis` which will pull the latest version of redis from DockerHub and start the container.
 
-### Build and run the Docker container
-
-Use the Dockerfile in the repository to build the app using `docker build --tag guestbook`
+## Build and run the Docker container
 
 To run both images locally we can use docker Compose, which is a tool for defining and running multi-container Docker applications. Refer to the `docker-compose.yaml` file in the repository. 
 
-To build the images with Compose, use `docker-compose build`. To start them use `docker-compose up` and to stop the containers `docker-compose down`.
+To build the images with Compose, you can use `docker-compose build`. To start them use `docker-compose up` and to stop the containers `docker-compose down`. In our case we have already build the image with Docker and pushed it to DockerHub, where the images can be pulled from anywhere.
 
 
 
