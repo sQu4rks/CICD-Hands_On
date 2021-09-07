@@ -21,5 +21,5 @@ This should result in two deployments with two pods named `web` and `redis` and 
 
 <div align="right">
    
-   [Prev](04_intro-to-deployments.md) - [Next](06_automate-k8s.md)
+   [Prev](04_intro-to-deployments.md) - [Next](06_intro-to-testing.md)
 </div>

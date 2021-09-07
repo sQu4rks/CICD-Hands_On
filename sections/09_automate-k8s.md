@@ -4,5 +4,5 @@ Move to the End
 
 <div align="right">
    
-   [Prev](05_deploy-to-k8s.md) - [Next](07_intro-to-testing.md)
+   [Prev](08_pipeline.md) - Next
 </div>

@@ -2,7 +2,6 @@
 
 Now after you got to know our little app, we will prepare everything to run it locally with Docker.
 
-
 First, change to a directory of your preference and use `git clone https://github.com/sQu4rks/CICD-Hands_On-Demo.git`  to clone the repository with the app and all required files for this session to a new folder.
 
 P.S.: To clone the repository with this sessions text you can use `git clone https://github.com/sQu4rks/CICD-Hands_On.git`
@@ -30,13 +29,8 @@ To generate this message, Docker took the following steps:
 
 To get the redis container downloaded and running, do the same thing using `docker run redis` which will pull the latest version of redis from DockerHub and start the container.
 
-## Build and run the Docker container
-
 To run both images locally we can use docker-compose, which is a tool for defining and running multi-container Docker applications. Refer to the `docker-compose.yaml` file in the repository. 
-
 To build the images with Compose, you can use `docker-compose build`. To start them use `docker-compose up` and to stop the containers `docker-compose down`. In our case we have already build the image with Docker and pushed it to DockerHub, where the images can be pulled from anywhere.
-
-
 
 <div align="right">
    

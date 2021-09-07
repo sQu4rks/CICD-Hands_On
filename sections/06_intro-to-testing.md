@@ -90,5 +90,5 @@ User-acceptance Testing (UAT) can be seen as system testing.
 
 <div align="right">
    
-   [Prev](06_automate-k8s.md) - [Next](08_write-test.md)
+   [Prev](05_deploy-to-k8s.md) - [Next](07_write-test.md)
 </div>
