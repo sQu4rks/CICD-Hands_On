@@ -44,7 +44,7 @@ You can run this (currently empty) unit test by running the following command **
 directory** `CICD-Hands_On-Demo`
 
 ```bash
-$ python3 -m unittest 
+$ python3 -m unittest discover tests/unit 
 ```
 
 The command will come back with the information that no tests were run and everything went ok.
