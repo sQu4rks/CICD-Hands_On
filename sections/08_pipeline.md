@@ -18,7 +18,15 @@ We have created a YAML file `.gitlab-ci.yml.tpl` for you that will be used to ex
 Every pipeline can consist of a number of `stages` under which we can execute `jobs`. Jobs that are in the same stage run in parallel, while jobs in the following stage run after the previous jobs are completed. An example for a pipeline is the one we have pepared for you to play around with here:
 
 ```yaml
-final gitlab-ci.yml
+stages:
+  - run
+#  - test
+#  - push
+
+pipeline_ok:
+    stage: run
+    script:
+        - echo "Pipeline running!"
 
 ```
 
