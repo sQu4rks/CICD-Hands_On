@@ -27,10 +27,11 @@ To generate this message, Docker took the following steps:
 ...
 ```
 
-To get the redis container downloaded and running, do the same thing using `docker run redis` which will pull the latest version of redis from DockerHub and start the container.
+Now that we have verified the Docker intallation, let's get our app running.
 
-To run both images locally we can use docker-compose, which is a tool for defining and running multi-container Docker applications. Refer to the `docker-compose.yaml` file in the repository. 
-To build the images with Compose, you can use `docker-compose build`. To start them use `docker-compose up` and to stop the containers `docker-compose down`. In our case we have already build the image with Docker and pushed it to DockerHub, where the images can be pulled from anywhere.
+To run both images locally we can either build and run them locally together and configure them manually, or we use `docker-compose` - which is a tool for defining and running multi-container Docker applications. Check out the `docker-compose.yaml` file in the repository to see what is configured for us already.
+
+To build the images with Compose, you can use `docker-compose build`. To start them use `docker-compose up` and to stop the containers `docker-compose down`. In our case we have already build the image with Docker and pushed it to DockerHub, where the images can be pulled from anywhere at a later point in time. With docker-compose, we will see both images being pulled and the corresponding containers being created. We can now start to interact with our local deployment of our guestbook app.
 
 <div align="right">
    
