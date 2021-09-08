@@ -15,7 +15,7 @@ apiserver: Running
 kubeconfig: Configured
 ```
 
-Use `kubectl apply -f /k8s` to create the resources on your local cluster for the application. This command applies the already created YAML files in the `k8s` folder and creates the resources accordingly. 
+Use `kubectl apply -f ./k8s` to create the resources on your local cluster for the application. This command applies the already created YAML files in the `k8s` folder and creates the resources accordingly. 
 This should result in two deployments with two pods named `web` and `redis` and two services. 
 
 
