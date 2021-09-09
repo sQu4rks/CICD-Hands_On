@@ -6,7 +6,7 @@ We can thus define testing as follows:
 
 > In software development testing is the process of verifying that a application meets a certain standard or functionality and quality. In testing we differentiate the types of visibility into the inner workings of the software with white-box, black-box and hybrid testing as well as the level of testing with unit testing, integration testing (sometimes also called scenario testing) and system testing.
 
-In *white-box* testing the test developer has full visibility in the source code of the software. Often the person writing the test is the developer herself.
+In *white-box* testing the test developer has full visibility in the source code of the software. Often the person writing the test is the developer himself.
 
 In *black-box* testing the test developer has no visibility into the software and treats the component under test as a black box where inputs can be changed and outputs can be observed.
 
