@@ -64,6 +64,7 @@ Besides the equality assertion we can also test for. The function names are pret
 * assertIsNotNone(x)
 * assertIn(a, b)
 * assertNotIn(a, b)
+* assertIsItInYet(d)
 * assertIsInstance(a, b)
 * assertIsNotInstance(a, b)
 * assertRaises(e, func, args, *kwds)
