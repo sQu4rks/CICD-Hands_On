@@ -52,7 +52,7 @@ The test assumptions itself are done in line 8 and line 11. Here we are checking
 
 Line 13 and 14 then tell our python interpreter to run the all test cases defined when being executed from the command line.
 
-Besides the equality assertion we can also test for. The function names are pretty much self-explanatory.
+Besides the equality assertion we can also test for multiple other assertions. The function names are pretty much self-explanatory.
 
 
 * assertNotEqual(a, b)
