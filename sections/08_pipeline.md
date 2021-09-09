@@ -42,13 +42,15 @@ In your Project, go to `Settings` and open the `CI / CD ` menu.
 
 Add the following variables and fill them with the required information:
 
-`CI_REGISTRY`: docker.io
+```
+CI_REGISTRY: docker.io
 
-`CI_REGISTRY_IMAGE`: index.docker.io/<your_docker_hub_user>/<your_image_name>
+CI_REGISTRY_IMAGE: index.docker.io/<your_docker_hub_user>/<your_image_name>
 
-`CI_REGISTRY_USER`: <your_docker_hub_user>
+CI_REGISTRY_USER: <your_docker_hub_user>
 
-`CI_REGISTRY_PASSWORD`: <your_docker_hub_password>
+CI_REGISTRY_PASSWORD: <your_docker_hub_password>
+```
 
 If every stage of the pipeline is excecuted successfully, your image will be pushed towards Docker Hub, where it will be available for example for a cluster to pull it from there.
 
