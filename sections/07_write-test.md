@@ -157,7 +157,7 @@ two `gherkin` keywords `When` and `Then`.
 
 ```gherkin
          When the request sends POST
-         Then the response status is CREATED
+         Then the response status is OK
 ```
 
 Run the scenario by running behave again. You can also open up a browser and navigate to 
