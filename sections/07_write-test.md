@@ -104,7 +104,12 @@ in a natural language while making it easy to translate the natural language ins
 executable code. 
 
 Navigate your terminal to the `tests/scenario` directory. You'll find the setup for `behave` is 
-already done. Make sure that you have a local instance of the application running. 
+already done. Make sure that you have a local instance of the application running. If you haven't done so already, install 
+the requirements (you can find the `requirements.txt` file in the `guestbook/` folder:
+
+```bash
+$ python3 -m pip install -r requirements.txt
+```
 
 In the directory(`tests/scenario` **not** the main directory) you can run behave by typing:
 
